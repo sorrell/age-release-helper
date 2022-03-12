@@ -2,7 +2,7 @@ Dear Apache Community,
  
 We would like to discuss the Apache AGE release {{AGE_VERSION}} that we have been working towards.
  
-To learn more about Apache AGE, please see http://age.apache.org/
+To learn more about Apache AGE, please see https://age.apache.org/
  
 Functionality included and addressed in this release:
  

@@ -20,4 +20,5 @@ AGE_RC="rc0"
 ```
 
 2. You must update the `releaseNotes.md` file to contain valid release notes 
-  
+
+3. Run the `exec.sh` script to run the process  
