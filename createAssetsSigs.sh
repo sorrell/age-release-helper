@@ -43,11 +43,5 @@ echo "* We're about to commit the release to svn"
 echo "* Here's the commit message I plan to use: "
 echo "*   $SVN_COMMIT_MSG "
 echo "*******************************$NC"
-yes_or_no "$GREEN$STOP_MSG $NC" && echo "I would have committed $SVN_COMMIT_MSG"
-
-#svn commit -m '$SVN_COMMIT_MSG'
-
-
-
-
+yes_or_no "$GREEN$STOP_MSG $NC" && svn commit -m "$SVN_COMMIT_MSG"
 
