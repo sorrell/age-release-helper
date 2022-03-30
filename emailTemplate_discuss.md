@@ -1,6 +1,6 @@
 Dear Apache Community,
  
-We would like to discuss the Apache AGE release {{AGE_VERSION}} that we have been working towards.
+We would like to discuss the Apache AGE release {{AGE_VERSION}}-{{AGE_RC}} that we have been working towards.
  
 To learn more about Apache AGE, please see https://age.apache.org/
  
@@ -16,7 +16,7 @@ https://github.com/apache/incubator-age/releases/tag/v{{AGE_VERSION}}-{{AGE_RC}}
 The git commit hash:
       commit {{AGE_GIT_HASH}}
  
-The release files for {{AGE_VERSION}}, can be found at:
+The release files for {{AGE_VERSION}}-{{AGE_RC}}, can be found at:
  https://dist.apache.org/repos/dist/dev/incubator/age/{{AGE_VERSION}}.{{AGE_RC}}/
  
 Signatures used for AGE RCs can be found in this file:
