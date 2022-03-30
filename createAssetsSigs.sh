@@ -11,10 +11,11 @@ cd $BASE_DIR
 ########
 # Clone and package release
 #######
-git clone --depth 1 --branch "release/$AGE_VERSION" https://github.com/apache/incubator-age.git "$AGE_GIT_DIR"
-git -C "$AGE_GIT_DIR" rev-parse HEAD > "$AGE_COMMIT_FILE"
-rm -rf "$AGE_GIT_DIR/.git"
-tar -czvf "$AGE_INCUBATING-src.tar.gz" "$AGE_GIT_DIR"
+git clone --depth 1 --branch "release/$AGE_VERSION" https://github.com/apache/incubator-age.git "$AGE_INCUBATING"
+git -C "$AGE_INCUBATING" rev-parse HEAD > "$AGE_COMMIT_FILE"
+rm -rf "$AGE_INCUBATING/.git"
+tar -czvf "$AGE_INCUBATING-src.tar.gz" "$AGE_INCUBATING"
+mv "$AGE_INCUBATING" "$AGE_GIT_DIR"
 
 ########
 # Create signatures
